@@ -60,9 +60,10 @@ h3{
 top:50px;
 }
  
-
+ 
 .skill-row{
     /* display: inline-block; */
+
     margin: 100px auto 100px auto;
     width: 50%;
     text-align: justify;
@@ -160,4 +161,19 @@ top:50px;
     background-image: -o-linear-gradient(top, #25b353, #0e451f);
     background-image: linear-gradient(to bottom, #25b353, #0e451f);
     text-decoration: none;
+  }
+ @media (max-width:900px) {
+    h1{
+        font-size: 40px;
+        text-align: center;
+padding: auto;
+    }
+    h2{
+        font-size: 10px;
+text-align: center;
+
+    }
+    .btn{
+        padding: 5%;
+    }
   }
